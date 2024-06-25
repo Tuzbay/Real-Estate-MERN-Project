@@ -7,11 +7,10 @@
     flex: 3;
 
     .wrapper {
-      padding-right: 5rem;
+      padding-right: 100px;
       display: flex;
       flex-direction: column;
       justify-content: center;
-      gap: 3rem;
       height: 100%;
 
       @include md {
