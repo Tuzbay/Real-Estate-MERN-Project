@@ -1,5 +1,5 @@
-import Navbar from './components/Navbar/Navbar';
 import HomePage from './routes/HomePage/HomePage';
+import ProfilePage from './routes/ProfilePage/ProfilePage';
 import Layout from './routes/layout/Layout';
 import ListPage from './routes/listPage/ListPage';
 import SinglePage from './routes/singlePage/SinglePage';
@@ -25,6 +25,10 @@ function App() {
         {
           path: '/:id',
           element: <SinglePage />,
+        },
+        {
+          path: '/profile',
+          element: <ProfilePage />,
         },
       ],
     },
